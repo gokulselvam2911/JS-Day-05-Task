@@ -45,3 +45,6 @@ class UberPriceCalculator {
   console.log(calculator.toString());
   const fare = calculator.calculateFare();
   console.log(`Total Fare: ₹${fare.toFixed(2)}`);
+//Output:
+//UberPriceCalculator[distance=5.50 miles, duration=15 minutes]
+//Total Fare: ₹17.75
